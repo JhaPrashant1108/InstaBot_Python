@@ -149,7 +149,7 @@ class InstagramBot:
       time.sleep(5)
       self.driver.find_element_by_xpath("//*[@aria-label='{}']".format('Like')).click()
       time.sleep(5)
-      self.driver.find_elements_by_class_name('ckWGn')[0].click()
+      self.driver.execute_script("window.history.go(-1)")
       time.sleep(5)
 
 
