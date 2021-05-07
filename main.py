@@ -120,6 +120,3 @@ if __name__ == "__main__":
     app.mainloop()
     print(data)
     InstagramBot(data)
-    #i
-     #we are kiddingi
-     #we are kidding
